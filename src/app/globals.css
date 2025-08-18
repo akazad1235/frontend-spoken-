@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter);
+
+  /* Custom Color Palette */
+  --color-background: #0f0f23;
+  --color-surface: #1a1a2e;
+  --color-surface-variant: #16213e;
+
+  --color-primary: #00d9ff;
+  --color-primary-hover: #00b8e6;
+  --color-secondary: #7c3aed;
+  --color-secondary-hover: #6d28d9;
+
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+}
