@@ -47,7 +47,7 @@ export default function Footer() {
             <Link href="/" className="text-xl font-extrabold text-[#FFFFFF]">
               LOGO
             </Link>
-            <p className="mt-5 text-sm text-[#9CA3AF]">
+            <p className="text-charcoal mt-5 text-sm">
               Copy-paste UI components that just work - responsive, animated and
               beautifully styled.
             </p>
@@ -63,7 +63,7 @@ export default function Footer() {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-sm text-[#9CA3AF] transition-colors duration-200 hover:text-white"
+                      className="text-charcoal text-sm transition-colors duration-200 hover:text-white"
                     >
                       {link.name}
                     </a>
@@ -78,7 +78,7 @@ export default function Footer() {
         <div className="mx-auto my-12 h-[1px] w-[75%] bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent"></div>
 
         {/* copyright info */}
-        <div className="flex items-center justify-center gap-1 text-[#9CA3AF]">
+        <div className="text-charcoal flex items-center justify-center gap-1">
           <Copyright size={14} />
           <p className="text-sm">2025 Logo. All rights reserved.</p>
         </div>

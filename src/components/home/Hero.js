@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="text-center">
           <div className="border-text-secondary/30 relative inline-flex items-center gap-2 rounded-full border bg-[#1A1A2E]/50 px-4 py-2 text-sm font-medium">
             <Zap className="size-4 text-[#F59E0B]" />
-            <span className="text-[#9CA3AF]">Zero Language Barriers</span>
+            <span className="text-charcoal">Zero Language Barriers</span>
             <div className="absolute -bottom-0.5 left-1/2 h-0.5 w-3/4 -translate-x-1/2 bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent"></div>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-[#9CA3AF] md:text-xl">
+        <p className="text-charcoal mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed md:text-xl">
           Create groups, practice with native speakers through audio/video calls
           and master languages naturally.
         </p>
@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="h-2 w-2 animate-pulse rounded-full bg-emerald-500"></div>{" "}
             Create New Group
           </button>
-          <button className="cursor-pointer rounded-xl border border-[#A1A1AA]/30 bg-[#1A1A2E]/50 px-8 py-3 font-semibold text-[#9CA3AF] backdrop-blur-sm transition-all duration-300 ease-linear hover:bg-[#16213E]/50 hover:text-[#FFFFFF]">
+          <button className="text-charcoal cursor-pointer rounded-xl border border-[#A1A1AA]/30 bg-[#1A1A2E]/50 px-8 py-3 font-semibold backdrop-blur-sm transition-all duration-300 ease-linear hover:bg-[#16213E]/50 hover:text-[#FFFFFF]">
             Join Random Group
           </button>
         </div>
@@ -48,11 +48,11 @@ export default function Hero() {
           <div className="flex flex-col items-center justify-center space-y-8">
             {/* Free forever badge */}
             <div className="hidden items-center gap-4 2xl:flex">
-              <Image src={vector1} alt="vector shape" className="w-96" />
-              <p className="mb-4 text-sm font-medium whitespace-nowrap text-[#9CA3AF]">
+              <Image src={vector1} alt="vector shape" className="h-auto w-96" />
+              <p className="text-charcoal mb-4 text-sm font-medium whitespace-nowrap">
                 Free Forever with unlimited time
               </p>
-              <Image src={vector2} alt="vector shape" className="w-96" />
+              <Image src={vector2} alt="vector shape" className="h-auto w-96" />
             </div>
 
             {/* Feature cards */}
@@ -66,7 +66,7 @@ export default function Hero() {
                   <h2 className="mt-2 text-lg font-semibold text-[#DDE0E3]">
                     {feat.title}
                   </h2>
-                  <p className="mt-2 text-sm text-[#9CA3AF]">
+                  <p className="text-charcoal mt-2 text-sm">
                     {feat.description}
                   </p>
                 </div>

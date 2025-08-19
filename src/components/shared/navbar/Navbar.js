@@ -17,7 +17,7 @@ export default function Navbar() {
             <Link
               key={i}
               href={link.url}
-              className="rounded-full px-4 py-2 font-medium text-[#9CA3AF] transition-colors duration-200 ease-linear hover:bg-[#16213E] hover:text-[#FFFFFF]"
+              className="text-charcoal rounded-full px-4 py-2 font-medium transition-colors duration-200 ease-linear hover:bg-[#16213E] hover:text-[#FFFFFF]"
             >
               {link.label}
             </Link>

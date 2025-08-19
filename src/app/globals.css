@@ -4,20 +4,14 @@
   --font-inter: var(--font-inter);
 
   /* Custom Color Palette */
-  --color-background: #0f0f23;
-  --color-surface: #1a1a2e;
-  --color-surface-variant: #16213e;
-
-  --color-primary: #00d9ff;
-  --color-primary-hover: #00b8e6;
-  --color-secondary: #7c3aed;
-  --color-secondary-hover: #6d28d9;
-
-  --color-success: #10b981;
-  --color-warning: #f59e0b;
-  --color-error: #ef4444;
-
-  --color-text-primary: #ffffff;
-  --color-text-secondary: #a1a1aa;
-  --color-text-muted: #71717a;
+  --color-navy: #0f1123;
+  --color-slate: #6b7280;
+  --color-charcoal: #9ca3af;
+  --color-lavender: #818cf8;
+  --color-silver: #d1d5db;
+  --color-midnight: #1a1c33;
+  --color-purple: #4f46e5;
+  --color-purple-overlay: #312e814d;
+  --color-border: #374151;
+  --color-muted: #cccccc;
 }
