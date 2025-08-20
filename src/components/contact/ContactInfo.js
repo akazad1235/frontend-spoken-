@@ -10,7 +10,7 @@ import {
 
 export default function ContactInfo() {
   return (
-    <div className="bg-midnight h-fit w-full space-y-6 rounded-xl p-6 text-white md:max-w-[320px]">
+    <div className="bg-midnight h-fit w-full space-y-6 rounded-xl p-6 text-white md:w-fit">
       <h2 className="text-xl font-bold">Get in Touch</h2>
 
       <div className="flex items-start gap-4">

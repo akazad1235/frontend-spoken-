@@ -1,6 +1,6 @@
 export default function PageTitle({ title, subtitle }) {
   return (
-    <header className="py-10 md:py-20">
+    <header className="py-10 md:pt-32 md:pb-16">
       <h1 className="mb-5 text-center text-3xl font-bold text-white">
         {title}
       </h1>
