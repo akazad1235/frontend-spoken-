@@ -47,7 +47,7 @@ export default function LoginPage() {
             </div>
 
             <button className="bg-purple w-full rounded-md py-3.5 text-sm">
-              Log In
+              Log In Azad
             </button>
 
             <div className="flex items-center justify-center gap-2">
